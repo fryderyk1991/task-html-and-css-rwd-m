@@ -1,0 +1,29 @@
+:root {
+   --header-color: #2C2C2C;
+   --main-btn: #37EBED;
+   --icon-blue: #4EAAFD;
+   --icon-orange: #FD955D;
+   --icon-green: #37EF8D;
+   --secondary-btn: #0181F5;
+   --pricing-basic: #E9F4FE;
+   --pricing-team: #FEF4EE;
+   --pricing-bus: #E8FCF1;
+   --footer-bck: #1F1F1F;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  width: 100%;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+button {
+  font-family: "Poppins", sans-serif;
+}
+.heading {
+  font-size: 2rem;
+}
