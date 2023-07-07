@@ -39,7 +39,7 @@
     font-size: 1.2rem;
 }
 .main__button {
-    padding: 12px 30px;
+    padding: 10px 30px;
     background-color: var(--main-btn);
     border: none;
     border-radius: 5px;
@@ -52,7 +52,7 @@
 .main__image {
     max-width: 400px;
 }
-.main__image > img {
+.main__image > .main__image-phone {
     width: 100%;
     object-fit: cover;
     position: relative;
@@ -62,3 +62,31 @@
     margin-top: 8rem;
     text-align: center;
 }
+.option__content {
+    margin-top: 3rem;
+}
+.option__text {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 0 6rem;
+}
+.option__icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    line-height: 80px;
+    border-radius: 20px;
+}
+.option__image {
+    width: 40px;
+}
+.option__icons-circle {
+    background-color: var(--icon-blue);
+}
+.option__icons-leaf {
+    background-color: var(--icon-orange);
+} 
+.option__icons-cloud {
+    background-color: var(--icon-green);
+} 
