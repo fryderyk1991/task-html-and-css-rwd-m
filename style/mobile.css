@@ -51,6 +51,7 @@
 }
 .main__image {
   max-width: 400px;
+  margin: 0 auto;
 }
 .main__image > .main__image-phone {
   width: 100%;
@@ -111,10 +112,53 @@
   margin-top: 2rem;
 }
 .features__image-container {
-    max-width: 400px;
-    height: auto;
-    margin: 3rem auto;
+  max-width: 400px;
+  height: auto;
+  margin: 3rem auto;
 }
 .features__image {
+  width: 100%;
+}
+.background-review {
+  margin-top: 4rem;
+  background: url(/images/banner/testmonial.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--icon-blue);
+  position: relative;
+  z-index: 1;
+}
+.background-review::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background-color: rgb(78, 170, 253, 0.8);
+    z-index: -1;
+}
+.background-review__content {
+    color: white;
+    z-index: 1;
+    padding: 10rem 3rem;
+    text-align: center;
+}
+.background-review__text {
+    margin-top: 2rem;
+}
+.background-review__review {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-review__name {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.background-review__stars {
+  color: gold;
 }
