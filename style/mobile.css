@@ -9,12 +9,36 @@
   color: #fff;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .container {
   padding: 0 1.5rem;
 }
 .header__nav {
   display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #000;
+  width: 100%;
+  z-index: 10;
+}
+.nav__list {
+  padding: 2rem;
+}
+.nav__list-item {
+  margin: 2rem 0;
+}
+.nav__link-item {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.header__input {
+  display: none;
+}
+.header__input:checked + .header__nav {
+  display: block;
 }
 .header__logo.heading__logo {
   font-size: 2rem;
