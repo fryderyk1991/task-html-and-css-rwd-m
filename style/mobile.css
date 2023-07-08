@@ -207,12 +207,37 @@
 }
 .pricing__button {
   margin-bottom: 4rem;
-  padding: 10px 35px;
+  padding: 10px 30px;
   text-transform: capitalize;
   border: 1px solid var(--icon-blue);
   background-color: transparent;
   color: var(--icon-blue);
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 1.3rem;
   font-weight: 500;
 }
+.product {
+  margin-top: 4rem;
+  background-image: url(/images/banner/product.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 7rem 3rem;
+  text-align: center;
+  color: white;
+}
+.product__icons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  max-width: 100%;
+  margin-top: 1rem;
+}
+.product__image {
+  max-width: 50%;
+  max-height: 40px;
+  object-fit: cover;
+  padding: 0 0.3rem;
+}
+
+
