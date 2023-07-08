@@ -12,7 +12,7 @@
 .header__nav {
   display: none;
 }
-.header__logo {
+.header__logo.heading__logo {
   font-size: 2rem;
   font-weight: 600;
 }
@@ -222,7 +222,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 7rem 3rem;
+  padding: 8rem 3rem;
   text-align: center;
   color: white;
 }
@@ -239,5 +239,55 @@
   object-fit: cover;
   padding: 0 0.3rem;
 }
-
+.footer {
+  padding: 4rem 0 0;
+  background-color: var(--footer-bck);
+  color: white;
+}
+.footer__logo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.footer__text {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+.footer__social {
+  display: flex;
+  margin-top: 2rem;
+}
+.footer__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--footer-icon);
+  text-align: center;
+  margin-right: 1rem;
+}
+.footer__icon > .fa-brands {
+  line-height: 40px;
+}
+.footer__heading {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+}
+.footer__list-item {
+  margin-top: 2rem;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.footer__rights {
+  padding: 3rem 2rem;
+  background-color: #000;
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 2.5;
+}
+.footer__author {
+  color: blue;
+}
 
