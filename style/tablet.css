@@ -4,6 +4,9 @@
 .container {
     padding: 0 3rem;
 }
+.text {
+    font-size: 1.4rem;
+}
 .main__content {
     display: flex;
     justify-content: center;
@@ -18,14 +21,11 @@
     margin: 0;
 }
 .main__article {
-    width: 30%;
+    width: 35%;
     margin-top: 4rem;
 }
 .main__heading {
     font-size: 2.8rem;
-}
-.main__text {
-    font-size: 1.6rem;
 }
 .option__wrapper {
     display: flex;
@@ -54,7 +54,7 @@
     align-items: center;
 }
 .features__content {
-    width: 40%
+    width: 35%
 }
 .features__image-container {
     width: 40%;
@@ -74,4 +74,30 @@
 .background-review__text {
     margin-top: 7rem;
     padding: 0 12rem;
+}
+.pricing {
+    margin-top: 12rem;
+}
+.pricing__text {
+    width: 60%;
+    margin: 2rem auto 0;
+}
+.pricing__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 4rem auto;
+}
+.pricing__basic {
+    flex: 1;
+}
+.pricing__team {
+    flex: 1;
+}
+.pricing__business {
+    flex: 1;
+}
+.pricing__list-item {
+    font-size: 1.4rem;
 }
