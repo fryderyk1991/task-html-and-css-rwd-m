@@ -273,7 +273,7 @@
   color: white;
 }
 .footer__logo {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 .footer__text {
@@ -316,6 +316,6 @@
   line-height: 2.5;
 }
 .footer__author {
-  color: blue;
+  color: rgb(48, 82, 233);
 }
 

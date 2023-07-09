@@ -114,3 +114,24 @@
 .product__icons {
     margin-top: 2rem;
 }
+.footer__heading {
+    font-size: 1.8rem;
+}
+.footer__content {
+    padding: 3rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer__logo {
+    margin-top: 2.5rem;
+}
+.footer__text {
+    padding-right: 9rem;
+    margin-top: 3rem;
+}
+.footer__list {
+    margin-top: 3rem;
+}
+.footer__social {
+    margin-top: 4rem;
+}
