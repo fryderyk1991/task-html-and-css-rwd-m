@@ -64,3 +64,14 @@
 .features__button {
     margin-top: 3rem;
 }
+.background-review {
+    margin-top: 10rem;
+}
+.background-review__heading {
+   width: 40%;
+   margin: 0 auto;
+}
+.background-review__text {
+    margin-top: 7rem;
+    padding: 0 12rem;
+}
