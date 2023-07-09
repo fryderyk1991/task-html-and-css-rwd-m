@@ -11,6 +11,9 @@
   justify-content: space-between;
   position: relative;
 }
+.header__button {
+  display: none;
+}
 .container {
   padding: 0 1.5rem;
 }
@@ -36,6 +39,9 @@
   color: #fff;
   text-decoration: none;
   text-transform: capitalize;
+}
+.nav__dropdown .nav__link-item {
+  padding-left: 2rem;
 }
 .header__input {
   display: none;
