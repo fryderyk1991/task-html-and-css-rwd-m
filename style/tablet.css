@@ -1,0 +1,43 @@
+.heading {
+    font-size: 2.4rem;
+}
+.main__content {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.main {
+    background-position: bottom;
+}
+.main__image {
+    width: 50%;
+    max-width: 280px;
+    margin: 0;
+}
+.main__article {
+    width: 30%;
+    margin-top: 4rem;
+}
+.main__text {
+    font-size: 1.6rem;
+}
+.option__wrapper {
+    display: flex;
+    margin-top: 4rem;
+    width: 80%;
+    margin: 4rem auto 0;
+}
+.option__heading {
+    font-size: 2.8rem;
+    width: 30%;
+    margin: 0 auto;
+}
+.option {
+    margin-top: 13rem;
+}
+.option__content {
+    width: 33.3%;
+}
+.option__text {
+    padding: 0 4rem;
+}

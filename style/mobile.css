@@ -2,7 +2,7 @@
   font-size: 2.2rem;
   font-weight: 300;
 }
-.header {
+.header__content {
   height: 50px;
   background-color: var(--header-color);
   display: flex;
@@ -23,6 +23,9 @@
   width: 100%;
   z-index: 10;
 }
+.header__burger-btn > .fa-solid {
+  font-size: 2rem;
+}
 .nav__list {
   padding: 2rem;
 }
@@ -40,12 +43,9 @@
 .header__input:checked + .header__nav {
   display: block;
 }
-.header__logo.heading__logo {
+.header__logo {
   font-size: 2rem;
   font-weight: 600;
-}
-.header__burger {
-  font-size: 2rem;
 }
 .main {
   background-image: url(../images/banner/banner.png);
