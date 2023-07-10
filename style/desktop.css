@@ -1,0 +1,123 @@
+
+.header__burger-btn {
+    display: none;
+}
+.header__btn {
+    display: block;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    background-color: var(--header-btn);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+.header {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: 0;
+    width: 100%;
+}
+.header__nav {
+    position: static;
+    display: block;
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+}
+.nav__list {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.nav__list-item {
+    font-size: 1.3rem;
+}
+.nav__dropdown {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100px;
+    background-color: var(--header-btn);
+    border-radius: 10px;
+}
+.nav__dropdown-item {
+    position: relative;
+}
+.nav__dropdown-item:hover .nav__dropdown {
+    display: block;
+}
+.main {
+    min-height: 80vh;
+}
+.main__content {
+    padding-top: 12rem;
+}
+.main__image {
+    max-width: 350px
+}
+.heading {
+    font-size: 3.6rem;
+}
+.option {
+    margin-top: 20rem;
+}
+.option__text {
+    padding: 0 8rem;
+}
+.features__heading {
+    font-size: 3rem;
+}
+.features {
+    margin-top: 20rem;
+}
+.features__image-container {
+    width: 50%;
+    max-width: 400px;
+}
+.features__content {
+    width: 40%;
+}
+.background-review  {
+    margin-top: 20rem;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-review__content {
+    display: flex;
+    flex-direction: column;
+}
+.pricing__text {
+    width: 35%;
+}
+.pricing__cards {
+    width: 80%;
+    margin-top: 6rem;
+}
+.product__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.product__heading {
+    margin: 0;
+}
+.footer__content {
+    grid-template-columns: 40% 20% 20% 20%;
+    margin-bottom: 15rem;
+}
+.footer__heading {
+    font-size: 1.8rem;
+}
+.footer__logo {
+    margin-top: 2.5rem;
+}
+.footer__social {
+    margin-top: 6rem;
+}

@@ -2,17 +2,17 @@
   font-size: 2.2rem;
   font-weight: 300;
 }
-.header__content {
+.header {
   height: 50px;
   background-color: var(--header-color);
   display: flex;
   color: #fff;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  padding: 0 2rem;
 }
-.header__button {
-  display: none;
+.header__btn {
+display: none;
 }
 .container {
   padding: 0 1.5rem;
@@ -42,6 +42,10 @@
 }
 .nav__dropdown .nav__link-item {
   padding-left: 2rem;
+}
+.nav__dropdown-arrow {
+  display: inline-block;
+  transform: rotate(90deg);
 }
 .header__input {
   display: none;

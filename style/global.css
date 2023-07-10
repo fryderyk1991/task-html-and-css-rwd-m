@@ -1,5 +1,6 @@
 :root {
    --header-color: #2C2C2C;
+   --header-btn: rgba(0, 217, 255, 0.911);
    --main-btn: #37EBED;
    --icon-blue: #4EAAFD;
    --icon-orange: #FD955D;
@@ -11,16 +12,18 @@
    --footer-bck: #1F1F1F;
    --footer-icon: #565656;
 }
-
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
-  width: 100%;
   overflow-x: hidden;
   line-height: 1.5;
+  position: relative;
 }
 button {
   font-family: "Poppins", sans-serif;
