@@ -219,13 +219,13 @@ display: none;
   text-transform: capitalize;
   font-weight: 600;
 }
-.pricing__basic > .pricing__header {
+.pricing__header--basic {
   background-color: var(--pricing-basic);
 }
-.pricing__team > .pricing__header {
+.pricing__header--team {
   background-color: var(--pricing-team);
 }
-.pricing__business > .pricing__header {
+.pricing__header--business {
   background-color: var(--pricing-bus);
 }
 .pricing__basic  .pricing__price {
